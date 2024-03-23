@@ -1,0 +1,759 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 10vh;
+    width: 99vw;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    margin-left: 35vw;
+    gap: 6vw;
+}
+nav p{
+    font-family: inter;
+    font-size: 15px;
+    text-decoration: underline;
+}
+nav span{
+    font-size: 25px;
+}
+nav button{
+    height: 25px;
+    width: 100px;
+    font-size: 11px;
+    font-family: inter;
+    font-size: 15px;
+    border-style: none;
+    background-color:#000F94;
+    color: white;
+    border-radius: 1vw;
+}
+.burger{
+    height: 70vh;
+    width: 20vw;
+    right: 0;
+    position: absolute;
+    top: 10vh;
+    z-index: 1000;
+    display: none;
+    background-color: #B4B9FF;
+}
+.bur{
+    margin-top: 2vw;
+    margin-left: 6vw;
+    font-family: inter;
+    line-height: 5vw;
+    text-decoration: underline;
+}
+.page1{
+    height: 90vh;
+    width: 99vw;
+    background:linear-gradient(180deg,#B4B9FF 0% , #ffffff 100%);
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+}
+.grid{
+    height: 90vh;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    
+}
+.grid1{
+    height: 90vh;
+    width: 20vw;
+    border-right: 1px solid black;
+}
+.grid2{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.grid3{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 12vw;
+}
+.grid4{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 24vw;
+}
+.grid5{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 34vw;
+}
+.grid h1{
+    color: blue;
+    position: absolute;
+    color: #060b33;
+    font-size: 41px;
+    font-family: inter;
+    font-weight: 400;
+    top: 14vw;
+    left: 3.5vw;
+}
+.cont1 {
+   height: 40vh;
+   width: 20vw;
+   position: absolute;
+   z-index: 101;
+    bottom: 2vw;
+    left: 9vw;
+}
+.cont1 img{
+    height: 100px;
+    width: 100px;
+    z-index: 101;
+    border-radius: 50%;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    background-position: center;
+    background-size: cover;
+}
+.cont1 h1{
+    width: 13vw;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter ;
+    color: #060b33;
+    text-align: left;
+    padding-top: 1vw;
+    background-color: #EFF0FF;
+    padding-bottom: 1vw;
+    border-radius:1vw ;
+    padding-top: 1vw;
+    box-shadow:  0 0 25px #B4B9FF;
+    margin-bottom: 1vw;
+    padding-left: 1vw;
+}
+.cont1 p{
+    width: 13vw;
+    color: #060b33;
+    font-family: inter;
+    font-size:12px;
+    font-weight: 500;
+    margin-top: 0vw;
+    padding-top: 1vw;
+    text-align: left;
+    background-color: #EFF0FF;
+    padding-bottom: 1vw;
+    padding-left: 2px;
+    border-radius:1vw ;
+    box-shadow:  0 0 25px #B4B9FF;
+    padding-left: 1vw;
+}
+.cont2 {
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    z-index: 101;
+     bottom: 2vw;
+     left: 34vw;
+ }
+ .cont2 img{
+     height: 100px;
+     width: 100px;
+     z-index: 101;
+     border-radius: 50%;
+     margin-bottom: 1vw;
+     margin-left: 2vw;
+     background-position: center;
+     background-size: cover;
+ }
+ .cont2 h1{
+     width: 13vw;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter ;
+     color: #060b33;
+     text-align: left;
+     padding-top: 1vw;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     border-radius:1vw ;
+     padding-top: 1vw;
+     box-shadow:  0 0 25px #B4B9FF;
+     margin-bottom: 1vw;
+     padding-left: 1vw;
+ }
+ .cont2 p{
+     width: 13vw;
+     color: #060b33;
+     font-family: inter;
+     font-size:12px;
+     font-weight: 500;
+     margin-top: 0vw;
+     padding-top: 1vw;
+     text-align: left;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     padding-left: 2px;
+     border-radius:1vw ;
+     box-shadow:  0 0 25px #B4B9FF;
+     padding-left: 1vw;
+ }
+ .cont3 {
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    z-index: 101;
+     bottom: 2vw;
+     left: 58vw;
+ }
+ .cont3 img{
+     height: 100px;
+     width: 100px;
+     z-index: 101;
+     border-radius: 50%;
+     margin-bottom: 1vw;
+     margin-left: 2vw;
+     background-position: center;
+     background-size: cover;
+ }
+ .cont3 h1{
+     width: 13vw;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter ;
+     color: #060b33;
+     text-align: left;
+     padding-top: 1vw;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     border-radius:1vw ;
+     padding-top: 1vw;
+     box-shadow:  0 0 25px #B4B9FF;
+     margin-bottom: 1vw;
+     padding-left: 1vw;
+ }
+ .cont3 p{
+     width: 13vw;
+     color: #060b33;
+     font-family: inter;
+     font-size:12px;
+     font-weight: 500;
+     margin-top: 0vw;
+     padding-top: 1vw;
+     text-align: left;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     padding-left: 2px;
+     border-radius:1vw ;
+     box-shadow:  0 0 25px #B4B9FF;
+     padding-left: 1vw;
+ }
+ .cont4 {
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    z-index: 101;
+     bottom: 2vw;
+     left: 39vw;
+     margin-left: 43vw;
+ }
+ .cont4 img{
+     height: 100px;
+     width: 100px;
+     z-index: 101;
+     border-radius: 50%;
+     margin-bottom: 1vw;
+     margin-left: 2vw;
+     background-position: center;
+     background-size: cover;
+ }
+ .cont4 h1{
+     width: 13vw;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: inter ;
+     color: #060b33;
+     text-align: left;
+     padding-top: 1vw;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     border-radius:1vw ;
+     padding-top: 1vw;
+     box-shadow:  0 0 25px #B4B9FF;
+     margin-bottom: 1vw;
+     padding-left: 1vw;
+ }
+ .cont4 p{
+     width: 13vw;
+     color: #060b33;
+     font-family: inter;
+     font-size:12px;
+     font-weight: 500;
+     margin-top: 0vw;
+     padding-top: 1vw;
+     text-align: left;
+     background-color: #EFF0FF;
+     padding-bottom: 1vw;
+     padding-left: 2px;
+     border-radius:1vw ;
+     box-shadow:  0 0 25px #B4B9FF;
+     padding-left: 1vw;
+ }
+.extra{
+    height: 12vh;
+    width: 99vw;
+   background-color: #ADFF00 ; 
+   display: flex;
+}
+.extra h1{
+    color: #060b33;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 500;
+    padding: 2vw 3vw ;
+}
+.ex{
+    height: 8vh;
+    width: 35vw;
+    margin:1.2vw 2vw ;
+    border-radius: 3vw;
+}
+.ex img{
+    height: 7.5vh;
+    width: 35vw;
+    border-radius: 3vw ;
+    box-shadow: 0 0 25px  white;
+}
+.start{
+    height: 6vh;
+    width: 15vw;
+    background-color: black;
+    color: white;
+    font-family: inter;
+    margin-top: 1.3vw;
+    margin-left: 4vw;
+    border-radius: 2vw;
+    border-style: none;
+}
+.start span{
+    font-size: 18px;
+    font-weight: 400;
+    right: 7.5vw;
+    bottom: 1.3vw;
+    position: absolute;
+}
+.page2{
+    height: 85vh;
+    width: 99vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("Group\ 6.png");
+    background-color: #00109D;
+    display: flex;
+    gap: 7vw;
+}
+.element1{
+    height: 50vh;
+    width: 25vw;
+    background-color: red;
+    margin-top: 12vw;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Random\ Gifs\ —\ The\ Portfolio\ of\ Ross\ McCampbell.gif");
+    border-radius: 3vw;
+}
+.img1{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 2vw;
+}
+.element2{
+    height: 50vh;
+    width: 25vw;
+    margin-top: 12vw;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Random\ Gifs\ —\ The\ Portfolio\ of\ Ross\ McCampbell.gif");
+    border-radius: 3vw;
+}
+.element2 img{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 2vw;
+}
+
+.page3{
+    height: 95vh;
+    width: 99vw;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(180deg,#B4B9FF 0% , #ffffff 100%);
+}
+.swiper {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    width: 20vw;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.page3 h1{
+    font-family: inter;
+    margin-left: 30vw;
+    margin-top: 3vw;
+    font-weight: 400;
+}
+.imi{
+  margin-left: 50vw;
+  margin-top: 2vw;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer p{
+    font-family: inter;
+    color: white;
+    padding-top: 1.5vw;
+    margin-left: 33vw;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .main{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .nav{
+        height: 10vh;
+        width: 100vw;
+    
+    }
+    nav{
+        display: flex;
+        margin-left: 10vw;
+        gap: 11vw;
+    }
+    nav p{
+        font-family: inter;
+        font-size: 11px;
+        text-decoration: underline;
+    }
+    nav span{
+        font-size:  27px;
+        margin-left: 2vw;
+    }
+    nav button{
+        font-size: 12px;
+        margin-right: 5vw;
+    }
+    .home{
+        font-size: 18px;
+    }
+    .about{
+        display: none;
+    }
+    .services{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .burger{
+        height: 40vh;
+        width: 40vw;
+        right: 0;
+        position: absolute;
+        top: 10vh;
+        z-index: 1000;
+        display: none;
+        background-color: #B4B9FF;
+        border-bottom-left-radius: 5vw;
+        border-bottom-right-radius: 5vw;
+    }
+    .bur{
+        margin-top: 10vw;
+        margin-left: 11vw;
+        font-family: inter;
+        line-height: 7vw;
+        text-decoration: underline;
+    }
+    .page1{
+        height: 100vh;
+        width: 100vw;
+        margin-top: 0.01vh;
+    }
+    .grid{
+        height: 120vh;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        z-index: 100;
+        display: flex;
+        
+    }
+    .grid1{
+        height: 120vh;
+        width: 29vw;
+    }
+    .grid2{
+        top: -1vw;
+    }
+    .grid3{
+        top: 34vw;
+    }
+    .grid4{
+        top: 69vw;
+    }
+    .grid5{
+        top: 110vw;
+    }
+    .grid h1{
+        font-size: 21px;
+        top: 16vw;
+        left: 3.5vw;
+    }
+    .cont1 {
+         top: 40vw;
+         left: 10vw;
+     }
+     .cont1 h1{
+         width: 30vw;
+         font-size: 16px;
+        
+     }
+     .cont1 p{
+         width: 30vw;
+         font-family: inter;
+         font-size:11px;
+     }
+     .cont2 {
+         top: 40vw;
+        left: 64vw;
+     }
+     
+     .cont2 h1{
+         width: 30vw;
+         font-size: 16px;
+        
+     }
+     .cont2 p{
+         width: 30vw;
+         font-family: inter;
+         font-size:11px;
+     }
+     .cont3 {
+        top: 110vw;
+        left: 10vw;
+    }
+    
+    .cont3 h1{
+        width: 30vw;
+        font-size: 16px;
+       
+    }
+    .cont3 p{
+        width: 30vw;
+        font-family: inter;
+        font-size:11px;
+    }
+    .cont4 {
+        top: 110vw;
+        left: 23vw;
+    }
+    
+    .cont4 h1{
+        width: 30vw;
+        font-size: 16px;
+       
+    }
+    .cont4 p{
+        width: 30vw;
+        font-family: inter;
+        font-size:11px;
+    }
+    .extra{
+        height: 12vh;
+        width: 100%;
+    }
+    .extra h1{
+        width: 25vw;
+        color: #060b33;
+        font-size: 12px;
+        font-family: inter;
+        font-weight: 500;
+        padding: 6vw 3vw ;
+    }
+    .ex{
+        height: 8vh;
+        width: 45vw;
+        margin:5.9vw 0vw ;
+        border-radius: 6vw;
+    }
+    .ex img{
+        height: 6.5vh;
+        width: 55vw;
+        border-radius: 6vw ;
+        box-shadow: 0 0 25px  white;
+    }
+    .start{
+        height: 6vh;
+        width: 20vw;
+        font-size: 12px;
+        margin-top: 6.3vw;
+        margin-left: 12vw;
+        border-radius: 3.5vw;
+        border-style: none;
+    }
+    .page2{
+        height: 120vh;
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+        background-image: url("Group\ 6.png");
+        background-color: #00109D;
+        display: flex;
+        gap: 7vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .element1{
+        height: 50vh;
+        width: 75vw;
+        background-color: red;
+        margin-top: 12vw;
+        margin-left: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("Random\ Gifs\ —\ The\ Portfolio\ of\ Ross\ McCampbell.gif");
+        border-radius: 3vw;
+    }
+    .img1{
+        height: 40vh;
+        width: 60vw;
+        border-radius: 2vw;
+    }
+    .element2{
+        height: 50vh;
+        width: 75vw;
+        margin-top: 12vw;
+        margin-left: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("Random\ Gifs\ —\ The\ Portfolio\ of\ Ross\ McCampbell.gif");
+        border-radius: 3vw;
+    }
+    .element2 img{
+        height: 40vh;
+        width: 60vw;
+        border-radius: 2vw;
+    }
+    
+    .page3{
+        height: 95vh;
+        width: 99vw;
+        position: relative;
+        overflow: hidden;
+        background:linear-gradient(180deg,#B4B9FF 0% , #ffffff 100%);
+    }
+    .swiper {
+        width: 320vw;
+        height: 70vh;
+        position: relative;
+        overflow: hidden;
+      }
+    
+      .swiper-slide {
+        width: 50vw;
+        text-align: center;
+       
+      }
+    
+      .swiper-slide img {
+        height: 20vh;
+        width: vw;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    .page3 h1{
+        font-family: inter;
+        margin-left: 10vw;
+        margin-top: 3vw;
+        font-weight: 400;
+        font-size: 21px;
+    }
+    .imi{
+      margin-left: 45vw;
+      margin-top: 5vw;
+    }
+    .footer{
+        height: 10vh;
+        width: 100vw;
+        background-color: black;
+    }
+    .footer p{
+        font-family: inter;
+        color: white;
+        padding-top: 6.5vw;
+        margin-left: 8vw;
+        font-size: 16px;
+    }
+    
+}
